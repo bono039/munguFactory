@@ -27,7 +27,7 @@
 ## 2. 사용 기술
 #### <span style='background-color:#fff5b1'>Back-End</span>
 - Language&nbsp;&nbsp;  | JAVA 11
-- Framework | Spring Boot 2.7.5, MyBatis, JPA
+- Framework | Spring Boot 2.7.7, MyBatis, JPA
 - DB &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | MySQL
 
 #### <span style='background-color:#f6f8fa'>Front-End</span>
