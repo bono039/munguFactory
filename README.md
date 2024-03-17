@@ -1,7 +1,7 @@
-<h1>🏭 문구공장 생산관리 MES 웹 프로젝트 (2022) </h1>
+<h1>🏭 문구공장 생산관리 MES 웹 프로젝트 </h1>
 
 ### 📌 프로젝트 주제  
-    "생산관리"에 중점을 두어, 문구 공장의 생산품 관리에 기여하는 웹 사이트입니다.
+    "생산관리"에 중점을 두어, 문구 공장의 생산품 관리에 기여하는 웹 어플리케이션을 구현하였습니다.
 
 <br/>
 
@@ -19,8 +19,8 @@
 </br>
 
 ## 1. 제작 기간 · 참여 인원
-- 2022.01.03 ~ 2023.01.25
-- 팀 프로젝트 (X명)
+- 2023.01.03 ~ 2023.01.20
+- 팀 프로젝트 (10명)
 
 </br>
 
@@ -39,7 +39,7 @@
 #### <span style='background-color:#f6f8fa'>Tools</span>
 - STS 3.9.14
 - MySQL WorkBench 8.0
-- GitHub
+- Git, GitHub
 - Notion
 
 </br>
@@ -53,43 +53,37 @@
 
 ## 4. ERD 설계
 - 프로젝트 전체 ERD
-  ![image](https://github.com/bono039/ohTravel/assets/67899934/d787506f-360d-46a0-a017-53b84b7d8c99)
+![image](https://github.com/bono039/munguFactory/assets/67899934/9ebde328-50fd-48a6-8cee-4ee1b2f5aa3a)
 
-</br>
-
-- 입장권 관련 ERD
-![image](https://github.com/bono039/ohTravel/assets/67899934/f44e4984-2ee5-4c91-9fc3-0c1193ba3b9c)
+ 
 
 </br>
 
 ## 5. 구현 부분
-### **입장권 예약 관련 기능**
-- **입장권 상품 목록 정렬하기** &nbsp;- 대표 이미지 / 찜 여부 / 상품권 이름 / 가격 / 별점 표기
-- **입장권 상품 상세 정보 확인하기** - 상품 타입 선택 : 사용일자 , 수량 옵션
-- **입장권 상품 예약하기**&nbsp; - 기본 주문 정보 / 상품 정보 / 결제 방법 / 필수 약관 확인 후 결제
+### **생산실적 관리 기능**
+- **생산실적 목록** - 작업일시 기준 내림차순 정렬. 생산번호 클릭 시 상세 정보 확인 가능.
+- **생산실적 등록**
+- **생산실적 조회**&nbsp; - 원하는 조건(품번/품명/사원번호/공장코드)으로 검색 가능.
+- **생산실적 수정/삭제**
 
 </br>
 
 ## 6. 실제 구현 화면
-- [입장권] 메인화면
-![image](https://github.com/bono039/ohTravel/assets/67899934/18a51db3-d5d1-4067-92a8-fcbd14399abc)
+- 생산실적 리스트
+![image](https://github.com/bono039/munguFactory/assets/67899934/0039619b-dfe5-4815-8e0e-58214dddfae0)
+
 
 </br>
 
-- [입장권] 상품 상세 페이지 화면
+- 생산실적 상세 정보
+![image](https://github.com/bono039/munguFactory/assets/67899934/3beff938-cc6c-4a71-9922-0ae57c58ed69)
 
-  ![image](https://github.com/bono039/ohTravel/assets/67899934/6c7bb73f-449c-4aff-b126-0ad9c9a55468)
-
-</br>
-
-- [입장권] 상품 예약 및 결제 화면
-![image](https://github.com/bono039/ohTravel/assets/67899934/58691685-d64e-4332-9a06-2dd9f2f7cb9a)
-![image](https://github.com/bono039/ohTravel/assets/67899934/25c1619e-ca15-4e09-aae0-8d67053e623d)
 
 </br>
 
-- [마이페이지] 입장권 상품 예약 내역 확인하기
-![image](https://github.com/bono039/ohTravel/assets/67899934/149a617b-707e-40e8-8e4a-0bdb8b1bbf71)
+- 등록된 생산실적 수정 결과
+![image](https://github.com/bono039/munguFactory/assets/67899934/b09f54ca-f2c0-4051-8b04-f4c8c4ab95f9)
+
 
 </br>
 
